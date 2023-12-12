@@ -1,0 +1,37 @@
+.ant-carousel {
+
+    .container {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 0 0 10%;
+        flex-direction: column;
+        color: white;
+        gap: 10px;
+
+        h1 {
+            font-size: 64px;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            width: 20%;
+            color: white;
+            background-color: #a50000;
+            border-radius: 10px;
+            font-weight: bold;
+
+            &:hover {
+                background-color: #6D0000;
+            }
+        }
+    }
+}
